@@ -8,6 +8,9 @@ class LoggedIn extends React.Component {
         <Text>
           You are successfully logged in!
         </Text>
+        <Text style={{fontSize: 20}}>
+          {this.props.route.params.email}
+        </Text>
       </View>
     )
   }

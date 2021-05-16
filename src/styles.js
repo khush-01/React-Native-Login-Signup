@@ -33,8 +33,14 @@ const styles = StyleSheet.create({
     marginTop: 30,
     width: 200,
   },
+  error: {
+    color: 'red',
+    fontSize: 16,
+    marginTop: 20,
+  },
   tnc: {
     fontSize: 15,
+    marginTop: 20,
     paddingLeft: 20,
     paddingRight: 20,
     textAlign: 'justify',
